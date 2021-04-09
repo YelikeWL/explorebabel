@@ -1,0 +1,206 @@
+@media screen and (max-width: 1000px) {
+    /* HEADER BY CITAMI + DIASTI */
+    .header {
+        height: auto;
+    }
+    
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .header-list {
+        display:  none;
+    }
+
+    .header .headericon {
+        color: white;
+        float: right;
+        padding: 21px 0;
+        display: block;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    .searching {
+        padding: 5px 8px;
+        background: rgba(50, 50, 50, 0.2);
+        border: 0 solid #dbdbdb;
+        float:left;
+        margin-top: 60px;
+        margin-left: 30px;
+       
+    }
+
+    .search{
+        padding: 1px;
+    }
+
+    form{
+        font-size: 3px;
+    }
+
+    .button {
+        position: relative;
+        background-color: #53bd84;
+        padding: 3px 3px;
+        left: -8px;
+        border: 2px solid #53bd84;
+        color: #fafafa;
+    }
+
+    .input .search{
+        padding: 0px;
+    }
+
+    /* HIGHLIGHT CONTENT BY DIASTI */
+    .highlight-items {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-column-gap: 40px;
+    }
+
+    .highlight h3 {
+        font-size: 22px;
+    }
+    
+    .highlight label {
+        font-size: 14px;
+    }
+    
+    .highlight p {
+        font-size: 13px;
+    }
+
+    /* MAP BY YELKE */
+    .map-section h2 {
+        font-size: 22px;
+    }
+
+    .map-section p {
+        font-size: 13px;
+    }
+    
+    .map-section li{
+        width: 80%;
+    }
+
+    .map-flex {
+        flex-direction: column;
+    }
+    
+    .map-flex li {
+        margin: 0 auto;
+    }
+
+    /* FOOTER BY YELIKE */
+    .footer {            
+        height: 250px; 
+        font-size:14px;
+    }            
+     
+    .footer-logo {            
+        padding: 0px 37%;          
+    }
+
+    .footer-logo img {
+        max-width: 20%;
+    }
+    
+    .footer-list {          
+        padding: 0px 0px;    
+    }   
+
+    .footer-list li {
+         margin-right: 0.002%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    /* HEADER BY YELIKE */
+    .search {
+        width:100px;
+    }    
+
+    /* WELCOME SECTION BY DIASTI */
+    .top-wrapper h1{
+        opacity: 0.9;
+        font-size: 30px;
+        letter-spacing: 10px;
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+        padding: 100px 0 250px 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height: 15px;
+        margin-top:60px;
+    }
+
+    .signup {
+        background-color: white;
+        font-family : 'fantasy', Impact;
+        font-size : 18px;
+    }
+
+    .btn-wrapper {
+        margin: 10px 0;
+        font-size: 50px;
+    }
+
+    /* HIGHLIGHT CONTENT BY DIASTI */
+    .highlight-items {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-column-gap: 20px;
+    }
+
+    .highlight h3 {
+        font-size: 22px;
+    }
+
+    .highlight label {
+        font-size: 14px;
+    }
+
+    .highlight p {
+        font-size: 13px;
+    }
+
+    /* MAP BY YELKE */
+    .map-section li{
+        width: 80%;
+    }
+
+    .map-flex {
+        flex-direction: column;
+    }
+
+    .map-flex li {
+        margin: 0 auto;
+    }
+
+    /* FOOTER BY YELIKE */
+    .footer {            
+        height: 330px; 
+        font-size: 12px;
+    }            
+        
+        .footer-logo {                   
+        padding-left: 33%;
+    }
+
+        .footer-logo img {
+        max-width: 20%;
+    }
+
+        .footer-list {            
+        clear: left; 
+        padding: 0px 0px;          
+    }   
+}

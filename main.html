@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Wisata BABEL</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Content's ZOOM ANIMATION -->
+    <link rel="icon" type="image/svg" href="assets/icons/logo-white.svg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+    <script src="jquery-3.6.0.slim.min.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+
+  <body>
+    <!-- MOUSE TRAIL ANIMATION -->
+    <div class = "trail">
+      <div class ="pointer"></div>
+      <div class = "pointer pointer2"></div>
+      <div class = "pointer pointer3"></div>
+      <div class = "pointer pointer4"></div>
+      <div class = "pointer pointer5"></div>
+    </div>
+    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type ="text/javascript">
+      $(document).mousemove(function(e){
+        $('.pointer').css({left: e.pageX, top: e.pageY});
+      })
+    </script>
+
+    <!-- Header by RADHA -->
+    <div class="header">
+      <img class="header-logo" src="image/20210408_133657_0000-removebg-preview.png" height="100" width="100">
+      <div class="header-list">
+        <ul>
+          <li>Home</li>
+          <li>Tour</li>
+          <li>Events</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+      <div class="searching">
+        <form>
+          <input class="search" type="text" placeholder="Destination.." required>
+          <input class="button" type="button" value="Search">
+        </form>
+      </div>
+      <div class="headericon">
+        <a><img src="image/iconfinder_menu-alt_134216.png"></a>
+      </div>
+
+    </div>
+    <main>
+    <!-- WELCOME SECTION BY CITAMI -->
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>VISIT & EXPLORE</h1>
+          <h1>BANGKA BELITUNG</h1>
+          </div>
+          <div class="btn-wrapper">
+            <a href="#" class="btn signup">OPEN TRIP NOW</a>
+          </div>
+      </div>
+
+      <!-- HIGHLIGHT CONTENT BY DIASTI -->
+      <div class ="content">
+        <div class="highlight">
+          <h3 style="margin-bottom: 20px;">Highlights in Bangka Belitung</h3>
+          <label>Many destinations that can be visited,<br/>have natural beauty and uniqueness of Indonesian culture</label>
+          <div class="highlight-items">
+              <div class="highlight-card">
+                  <img alt src="image/Pulau Belitung.jpg"/>
+                  <label>Belitung Island</label>
+                  <p>An island in Indonesia that is famous for its Tanjung Tinggi beach, colonial architecture & coral reef snorkeling.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="image/Pulau Bangka.jpg"/>
+                  <label>Bangka Island</label>
+                  <p>An island located east of Sumatra, Indonesia, and included in the province of the Bangka Belitung Islands.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="image/Tanjung kalayang.jpg"/>
+                  <label>Tanjung Kelayang Beach</label>
+                  <p>A slice of Heaven on the Belitung Peninsula. the giant pile of granite that looked like a bird's head.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="image/pulau-lengkuas.jpg"/>
+                  <label>Lengkuas Island</label>
+                  <p>One of the hundreds of islands in Bangka Belitung Province has a high exotic value.</p>
+              </div>
+          </div>
+        </div>
+        <div class="modal modal-highlight" style="display: none;">
+            <img class="modal-content" alt src=""/>
+            <div class="modal-desciption">
+                <label></label>
+                <p></p>
+            </div>
+        </div>
+      </div>
+
+      <!-- PROMO BY YELIKE -->
+      <div class = "promo">
+        <h2 style = "margin-bottom: 20px;">PROMO OPEN TRIP KAOLIN LAKE BELITUNG!</h2>
+        <p>Ticket include: breakfast, transport, hotels, flights, sightseeing, monument entry, etc.</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn buy">Sign up here</a>
+        </div>
+      </div>
+
+      <!-- MAP BY YELIKE -->
+      <div class = "map-section">
+        <h2 style = "margin-bottom: 20px;">Bangka Belitung Location</h2>
+        <ul class ="map-flex">
+          <li class = "li1">
+            <p>The Bangka-Belitung Islands form an Indonesian province off the east coast of Sumatra. Small islets surround the 2 main islands, Bangka and Belitung. Sandy beaches with large granite rock formations include Tanjung Tinggi Beach on Belitung island. Belitung’s Tanjung Kelayang Beach is a jumping-off point for Lengkuas Island, with its coral reef, colorful fish and colonial Dutch-built lighthouse.</p>
+          </li> 
+          <li class ="li2">
+            <iframe class = "googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2040988.303673785!2d105.54109549428352!3d-2.4045536554374665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1716432da5398b%3A0x127e38fdb18423b9!2sBangka%20Belitung%20Islands!5e0!3m2!1sen!2sid!4v1617896680860!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- FOOOTER BY RADHA -->
+    <div class="footer">            
+      <img class="footer-logo" src="image/20210408_133657_0000.png" height="150" width="150">            
+      <div class="footer-list">            
+        <ul>
+          <li>visitbabel@gmail.com</li>
+          <li>Help center</li>
+          <li>Company</li> 
+          <li>Partner</li>
+          <li>About us</li>
+        </ul>
+      </div>
+    </body>
+</html>
